@@ -1,14 +1,14 @@
 def fizzbuzz_convert(number):
     if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
+        return "FizzBuzz"
     elif number % 3 == 0:
-        print("Fizz")
+        return "Fizz"
     elif number % 5 == 0:
-        print("Buzz")
+        return "Buzz"
     else:
         # 整数型から文字列型に変換
-        print(str(number))
+        return str(number)
 
 
-for number in range(1, 101):
-    fizzbuzz_convert(number)
+result = fizzbuzz_convert(1)
+print(result)  # 1
