@@ -1,6 +1,8 @@
 TODO
 ===============
-- [] FizzBuzz変換を関数にして使い回す
+- [x] FizzBuzz変換を関数にして使い回す
+    -[x] early return
+    -[x] ガード節
 
 - 1つの整数をFizzBuzz変換はできている
 
